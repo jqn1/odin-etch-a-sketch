@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 25px;
+}
+
+.gridSizeButton {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.gridContainer {
+    align-self: center;
+    border: 4px solid black;
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.block {
+    border: solid red;
+    height: 10%;
+    width: 10%;
+}
